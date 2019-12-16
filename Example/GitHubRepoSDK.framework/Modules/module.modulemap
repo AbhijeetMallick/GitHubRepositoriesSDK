@@ -1,0 +1,11 @@
+framework module GitHubRepoSDK {
+  umbrella header "GitHubRepoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GitHubRepoSDK.Swift {
+    header "GitHubRepoSDK-Swift.h"
+    requires objc
+}
